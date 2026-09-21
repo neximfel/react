@@ -1,0 +1,82 @@
+.section3{
+    max-width: 1597px;
+    width: 100%;
+    min-height: 801px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    &_title{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: 125px;
+        height: 100%;
+        width: 100%;
+        h2{
+            font-size: 2.375rem;
+            color: #FFFFFF;
+            line-height: 1.5;
+            font-weight: bold;
+        }
+        p{
+            font-size: 1.125rem;
+            color: #999999;
+            line-height: 1.5;
+            max-width: 1300px;
+        }
+    }
+    &_main{
+        width: 100%;
+        min-height: 596px;
+        flex-wrap: wrap;
+        display: flex;
+        gap: 30px;
+        article{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            margin: 0 auto;
+            min-width: 512px;
+            min-height: 283px;
+            border-radius: 12px;
+            background-image: url(../../assets/Section3/bg.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            .art_title{
+                display: flex;
+                align-items: center;
+                width: 412px;
+                gap: 16px;
+                height: 72px;
+                div{
+                    user-select: none;
+                    width: 72px;
+                    height: 72px;
+                    border-radius: 12px;
+                    background-color: #141414;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid #1F1F1F;
+                }
+                h3{
+                    color: #FFFFFF;
+                    font-size: 1.5rem;
+                    line-height: 1.5;
+                }
+            }
+            p{
+                font-size: 1.125rem;
+                line-height: 1.5;
+                color: #999999;
+                max-width: 412px;
+            }
+        }
+    }
+}

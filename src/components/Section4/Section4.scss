@@ -1,0 +1,130 @@
+.section4{
+    max-width: 1597px;
+    width: 100%;
+    min-height: 734px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    &_title{
+        display: flex;
+        justify-content: space-between;
+        min-height: 98px;
+        height: 100%;
+        width: 100%;
+        &_text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h2{
+                font-size: 2.375rem;
+                color: #FFFFFF;
+                line-height: 1.5;
+                font-weight: bold;
+            }
+            p{
+                font-size: 1.125rem;
+                color: #999999;
+                line-height: 1.5;
+            }
+        }
+        button{
+            background-color: #E50000;
+            border-radius: 8px;
+            width: 176px;
+            height: 63px;
+            color: #FFFFFF;
+            font-size: 1.125rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+    &_main{
+    max-width: 1596px;
+    width: 100%;
+    min-height: 556px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    .faq_column{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 758px;
+    }
+    article{
+        user-select: none;
+        cursor: pointer;
+        max-width: 758px;
+        min-height: 127px;
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-evenly;
+        transition: all 0.3s ease;
+        &.open{
+            min-height: 175px;
+        }
+        .art_number{
+            width: 65px;
+            height: 65px;
+            border-radius: 10px;
+            background-color: #1F1F1F;
+            border: 1px solid #262626;
+            user-select: text;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h3{
+                line-height: 1.5;
+                font-size: 1.25rem;
+                color: #FFFFFF;
+            }
+        }
+        .art_right{
+            max-width: 608px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            &_title{
+                display: flex;
+                justify-content: space-between;
+                h3{
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.325rem;
+                    color: #FFFFFF;
+                    line-height: 1.5;
+                    height: 33px;
+                }
+            }
+            .art_descr{
+                display: grid;
+                grid-template-rows: 0fr;
+                transition: grid-template-rows 0.3s ease;
+                overflow: hidden;
+                &.open{
+                    grid-template-rows: 1fr;
+                }
+                p{
+                    line-height: 1.5;
+                    font-size: 1.125rem;
+                    color: #999999;
+                    min-height: 0;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+}

@@ -1,0 +1,145 @@
+.section5{
+    max-width: 1597px;
+    width: 100%;
+    min-height: 603px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    &_title{
+        display: flex;
+        justify-content: space-between;
+        min-height: 98px;
+        height: 100%;
+        width: 100%;
+        align-items: end;
+        &_text{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 98px;
+            h2{
+                font-size: 2.375rem;
+                color: #FFFFFF;
+                line-height: 1.5;
+                font-weight: bold;
+            }
+            p{
+                font-size: 1.125rem;
+                color: #999999;
+                line-height: 1.5;
+            }
+        }
+        &_buttons{
+            user-select: none;
+            width: 245px;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #0F0F0F;
+            border-radius: 10px;
+            border: 1px solid #262626;
+            button{
+                padding: 14px 24px;
+                font-size: 1.125rem;
+                color: #999999;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+            .current{
+                background-color: #1F1F1F;
+                border-radius: 10px;
+                color: #FFFFFF;
+            }
+        }
+    }
+    &_main{
+        width: 100%;
+        min-height: 425px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        article{
+            max-width: 512px;
+            width: 100%;
+            min-height: 425px;
+            height: 100%;
+            background-color: #1A1A1A;
+            border: 1px solid #262626;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .art_inside{
+                max-width: 412px;
+                min-height: 340px;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: space-around;
+                &_title{
+                    width: 100%;
+                    height: 133px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    h4{
+                        line-height: 1.5;
+                        font-size: 1.5rem;
+                        color: #FFFFFF;
+                    }
+                    p{
+                        font-size: 1.125rem;
+                        line-height: 1.5;
+                        color: #999999;
+                    }
+                }
+                span{
+                    align-items: end;
+                    display: flex;
+                    gap: 4px;
+                    h2{
+                        font-size: 2.5rem;
+                        color: #FFFFFF;
+                        line-height: 1.5;
+                    }
+                    p{
+                        font-size: 1.125rem;
+                        color: #999999;
+                        line-height: 2.25;
+                    }
+                }
+                &_buttons{
+                    user-select: none;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    button{
+                        border-radius: 8px;
+                        color: #FFFFFF;
+                        font-size: 1.125rem;
+                        width: 196px;
+                        height: 63px;
+                        &:hover{
+                            transform: scale(1.1);
+                        }
+                    }
+                    #free_trial{
+                        background-color: #141414;
+                        border: 1px solid #262626;
+                    }
+                    #choose_plan{
+                        background-color: #E50000;
+                    }
+                }
+            }
+        }
+    }
+}

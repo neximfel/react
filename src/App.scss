@@ -1,0 +1,10 @@
+.all_sections{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    .fs_sections{
+        display: flex;
+        flex-direction: column;
+        gap: 200px;
+    }
+}

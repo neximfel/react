@@ -1,0 +1,52 @@
+.section6{
+    max-width: 1596px;
+    width: 100%;
+    height: 313px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    background-image: url(../../assets/Section6/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_inside{
+        max-width: 1436px;
+        width: 100%;
+        height: 113px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+            height: 100%;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            h1{
+                font-size: 3rem;
+                color: #FFFFFF;
+                line-height: 1.5;
+            }
+            p{
+                color: #999999;
+                font-size: 1.125rem;
+                line-height: 1.5;
+            }
+        }
+        button{
+            user-select: none;
+            width: 188px;
+            height: 63px;
+            background-color: #E50000;
+            font-size: 1.125rem;
+            color: #FFFFFF;
+            border-radius: 8px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+}
