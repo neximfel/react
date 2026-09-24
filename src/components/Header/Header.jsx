@@ -11,7 +11,7 @@ export default function Header(){
         <>
             <header>
                 <nav>
-                    <a href="#">{/* фон лого */}</a>
+                    <a href="#home">{/* фон лого */}</a>
                     <div className="header_nav_center">
                         {buttons.map((meow) => (
                             <button
